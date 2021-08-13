@@ -1,0 +1,54 @@
+[
+    {
+        "model": "raterapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Elder Scrolls Online",
+            "description": "Huge dragon fights and crazy guars running around.",
+            "designer": "Bethesda",
+            "year_released": 2014,
+            "number_of_players": 10,
+            "estimated_time_to_play": 200,
+            "age_recommended": 18
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Fortnite",
+            "description": "Battle husk in save the world, or battle sweaty players in battle royale.",
+            "designer": "Epic games",
+            "year_released": 2017,
+            "number_of_players": 4,
+            "estimated_time_to_play": 10000,
+            "age_recommended": 13
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "Destiny 2",
+            "description": "Raid dungeons and battle huge bosses.",
+            "designer": "Bungie",
+            "year_released": 2017,
+            "number_of_players": 4,
+            "estimated_time_to_play": 40,
+            "age_recommended": 13
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 4,
+        "fields": {
+            "title": "Sea Of Thieves",
+            "description": "Pirate adventure awaits! Be a good person and make an honest income OR be a thieving pirate and sink other players and steal their loot.",
+            "designer": "Rare",
+            "year_released": 2018,
+            "number_of_players": 4,
+            "estimated_time_to_play": 200,
+            "age_recommended": 13
+        }
+    }
+]
