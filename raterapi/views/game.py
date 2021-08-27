@@ -20,7 +20,7 @@ class GameView(ViewSet):
 
         player = Player.objects.get(user=request.auth.user)
 
-        category = Category.objects.get(pk = request.data["categoryId"])
+        category = Category.objects.get(pk = request.data["category"])
 
         game = Game()
         game.title = request.data["title"]
